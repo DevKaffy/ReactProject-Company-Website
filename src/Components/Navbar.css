@@ -1,0 +1,3 @@
+.nav-items {
+@apply flex items-center justify-center mx-auto border border-red-500
+}
