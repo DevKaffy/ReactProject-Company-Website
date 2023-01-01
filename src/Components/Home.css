@@ -1,0 +1,57 @@
+.home{
+    @apply overflow-auto ;
+}
+
+.figure img{
+    @apply absolute w-[40.31rem] h-[56.45rem] -top-5 shadow-sm left-[48.81rem];
+    z-index:1; 
+}
+.home-sections{
+    @apply flex pt-[3.75rem];
+    z-index: 2;
+    background:#E1EBFA
+}
+.leftSection{
+    @apply pl-[8rem] mt-[11rem];
+}
+.development{
+    @apply w-[500px] h-[144px] text-6xl text-[#486A6F] font-bold;
+}
+.developer{
+    @apply w-[480px] h-[72px] text-2xl text-[#678C92] font-normal mt-[1.25rem];
+}
+.button{
+    @apply flex items-center gap-x-[20px];
+}
+.services{
+    @apply py-[20px] px-[26px] bg-[#4397A4] text-[#F4F7FF] font-bold rounded; 
+}
+.about{
+    @apply py-[20px] px-[49px] text-[#486A6F] bg-[#C6DBFF] font-bold rounded;
+}
+.right-section{
+    @apply flex flex-col ;
+    z-index: 20;
+
+}
+.top-house{
+    @apply flex items-end gap-x-[2.1rem];
+}
+.white-house{
+    @apply w-[10rem] h-[9.99rem];
+}
+.blue-house{
+    @apply w-[15.59rem] h-[15.52rem];
+}
+.pink-house{
+    @apply w-[8rem] h-[8rem];
+}
+.down-house{
+    @apply flex items-start gap-x-[2rem] mt-[2.57rem];
+}
+.black-house{
+    @apply w-[21.4rem] h-[21.4rem];
+}
+.white-pool{
+    @apply w-[13.09rem] h-[13.03rem];
+}

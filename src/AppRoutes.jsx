@@ -10,7 +10,9 @@ import Services from './Components/Services';
 
 const AppRoutes = () => {
   return (
-    <div>AppRoutes</div>
+    <Routes>
+      
+    </Routes>
   )
 }
 
