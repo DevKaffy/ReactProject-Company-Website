@@ -1,0 +1,27 @@
+.footer{
+    @apply bg-[#486A6F] h-[27.12rem] flex pt-[6.10rem] px-[7.5rem] pb-[7.93rem] 
+}
+.first-footer{
+    @apply mr-[3.72rem] mb-[0.87rem]
+}
+.build{
+    @apply font-bold
+}
+.second-footer{
+    @apply mr-[10.47rem] mb-[0.37rem]
+}
+.third-footer{
+    @apply mr-[10.81rem]
+}
+.media{
+    @apply flex gap-[1.25rem] items-center justify-center mt-[2rem]
+}
+.station{
+    @apply w-[14rem] mb-[3.12rem]
+}
+.alarm{
+    @apply flex
+}
+.design-alarm{
+    @apply flex
+}

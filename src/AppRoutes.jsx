@@ -11,7 +11,12 @@ import Services from './Components/Services';
 const AppRoutes = () => {
   return (
     <Routes>
-      
+      <Route path='/' element={<Home />} />
+      <Route path='/' home element= {<Navigate to='/' replace />} />
+      <Route path='about' element={<About />} />
+      <Route path='services' element= {<Services />} />
+      <Route path='project' element={<Project />} />
+      <Route path='contacts' element={<Contacts />} />
     </Routes>
   )
 }
