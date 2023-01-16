@@ -1,9 +1,8 @@
-import React from 'react'
-import './Home.css'
-import { Link } from 'react-router-dom'
-import PageLayout from './PageLayout';
-import Navbar from './Navbar';
-import Button from './Button';
+import React from "react";
+import "./Home.css";
+import { Link } from "react-router-dom";
+import PageLayout from "./PageLayout";
+import Button from "./Button";
 
 const Home = () => {
   const innovations = [
@@ -23,11 +22,15 @@ const Home = () => {
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     },
   ];
-  const logos = [
-     '/Vector.png', '/Vector2.png', 
-     '/Vector3.png','/Vector4.png'
-    ]
-    const cards = ['/Card1.png', '/card2.png', '/card3.png', '/card4.png', '/card5.png', '/card6.png']
+  const logos = ["/Vector.png", "/Vector2.png", "/Vector3.png", "/Vector4.png"];
+  const cards = [
+    "/Card1.png",
+    "/card2.png",
+    "/card3.png",
+    "/card4.png",
+    "/card5.png",
+    "/card6.png",
+  ];
   const addresses = [
     {
       contact: "/contact1.png",
@@ -51,7 +54,7 @@ const Home = () => {
         <main className="home">
           <section className="home-sections">
             <div className="figure">
-              <img src="/Figure.svg" alt="figure" srcset="" />
+              <img src="/Figure.svg" alt="figure"/>
             </div>
             <div className="leftSection">
               <h1 className="development">Development Company</h1>
@@ -70,23 +73,20 @@ const Home = () => {
                   className="white-house"
                   src="/White house.png"
                   alt=""
-                  srcset=""
                 />
-                <img src="/Blue house.png" alt="" srcset="" />
-                <img src="/Pink house.png" alt="" srcset="" />
+                <img src="/Blue house.png" alt=""/>
+                <img src="/Pink house.png" alt="" />
               </div>
               <div className="down-house">
                 <img
                   className="black-house"
                   src="/Black house.png"
                   alt=""
-                  srcset=""
                 />
                 <img
                   className="white-pool"
                   src="/White pool.png"
                   alt=""
-                  srcset=""
                 />
               </div>
             </div>
@@ -194,33 +194,43 @@ const Home = () => {
                 ))}
               </div>
             </div>
-            
-              <form action="text">
-                <div className='name-email'>
-                  <div className="form-input">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" id="fname" name="fname" />
-                  </div>
-                  <div className="form-input">
-                    <label htmlFor="email">Email</label>
-                    <input type="text" id="fname" name="fname" />
-                  </div>
+
+            <form action="text">
+              <div className="name-email">
+                <div className="form-input">
+                  <label htmlFor="name">Name</label>
+                  <input type="text" id="fname" name="fname" />
                 </div>
                 <div className="form-input">
-                  <label htmlFor="subject">Subject</label>
-                  <input className='subject' type="text" id="fname" name="fname" />
+                  <label htmlFor="email">Email</label>
+                  <input type="text" id="fname" name="fname" />
                 </div>
-                <div className='form-input'>
-                  <label htmlFor="message">Message</label>
-                  <textarea name="text" id="message" cols="30" rows="5"></textarea>
-                </div>
-                <button>Send message</button>
-              </form>
+              </div>
+              <div className="form-input">
+                <label htmlFor="subject">Subject</label>
+                <input
+                  className="subject"
+                  type="text"
+                  id="fname"
+                  name="fname"
+                />
+              </div>
+              <div className="form-input">
+                <label htmlFor="message">Message</label>
+                <textarea
+                  name="text"
+                  id="message"
+                  cols="30"
+                  rows="5"
+                ></textarea>
+              </div>
+              <button>Send message</button>
+            </form>
           </section>
         </main>
       </PageLayout>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

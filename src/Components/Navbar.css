@@ -1,5 +1,5 @@
 .nav-items{
-    @apply flex items-center justify-between mx-auto text-[#678C92] pl-[8rem] pr-[9.71rem] w-full pt-[4rem];
+    @apply flex items-center justify-between mx-auto text-[#678C92] pl-[8rem] pr-[9.71rem] w-full pt-[4rem] pb-[2rem];
     background:#E1EBFA;
 }
 .left{
@@ -12,10 +12,9 @@
     @apply font-bold
 }
 .items {
-@apply flex items-center justify-center mx-auto text-[#678C92] gap-x-[3.12rem]
+@apply flex items-center justify-center mx-auto text-[#678C92] gap-x-[3.12rem] capitalize
 }
 .project {
-    @apply bg-[#4397A4] right-36 text-[#F4F7FF] w-[8rem] h-[2rem] rounded font-bold; 
+    @apply bg-[#4397A4] right-36 text-[#F4F7FF] w-[10.56rem] h-[2.62rem] rounded px-[1.56rem] font-bold text-base; 
     z-index:2; 
 }
-

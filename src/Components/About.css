@@ -1,0 +1,81 @@
+.first-wrapper{
+    @apply flex flex-row px-[11.9rem] pt-[7.2rem];
+     background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+}
+.image-wrapper{
+    @apply relative
+}
+.image-one{
+    @apply pb-[13.37rem]
+}
+.image-two{
+    @apply z-10 absolute top-[11.5rem] left-[12rem]
+}
+.about-part{
+    @apply flex flex-col pl-[13.31rem]
+}
+.about-title{
+    @apply w-[31.25rem] 
+}
+.about-description{
+    @apply w-[30rem] text-[#678C92]  
+}
+.second-section{
+    @apply bg-[#F4F7FF] h-[54.31rem] pt-[8.12rem] flex items-center flex-col
+}
+.statistic{
+    @apply text-[#5BCCDE] font-medium
+}
+.dev{
+    @apply text-[#486A6F] font-bold mb-[8.87rem] text-4xl
+}
+.square{
+    @apply w-[64rem] h-[9.81rem] rounded py-[2.68rem] px-[5.56rem] mb-[3.75rem];
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+    box-shadow: 0px 5px 10px 5px #E1EBFA;
+}
+.wrap{
+    @apply flex
+}
+.flex-images{
+    @apply flex gap-[2.5rem] 
+}
+.imageNumber{
+    @apply pr-[4.5rem] border-r-2 border-[#486A6F] mr-[3.12rem]
+}
+.numbering{
+    @apply mt-2 text-[#678C92]
+}
+.logoItems{
+    @apply flex mx-auto items-center justify-center gap-x-[2.5rem] border-y-2 border-[#678C92] w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
+}
+.third-section{
+    @apply bg-[#E1EBFA] h-[108.62rem] flex flex-col pt-[5.18rem] px-[14.31rem] pb-[8.18rem] items-center
+}
+.passports{
+    @apply grid grid-cols-3 gap-[2.5rem];
+}
+.let{
+    @apply mb-[3.93rem]  text-[#486A6F] font-bold text-4xl
+}
+.surname-wrapper{
+    @apply py-[1.31rem] pl-[1.25rem];
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+    border-radius: 0 0 5px 5px;
+}
+.surname{
+    @apply text-[#486A6F] font-bold mb-[0.31rem]
+}
+.worker{
+    @apply text-[#678C92] font-medium
+}
+.shadow{
+    box-shadow:  10px 5px 5px 1px #4397A4;
+}
+.call{
+    @apply flex mt-[3.75rem] border-y-2 border-[#678C92] py-[4.75rem]
+}
+.us{
+    @apply w-[42.51rem] mr-[4.67rem] text-[#486A6F] font-bold text-4xl 
+}
+
