@@ -1,6 +1,7 @@
 import React from 'react'
-import PageLayout from './PageLayout'
-import './About.css'
+import PageLayout from './PageLayout';
+import './About.css';
+import Call from './Call';
 import Button from './Button';
 
 const images = [
@@ -136,15 +137,7 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="call">
-            <div className="us">Call Us</div>
-            <Button label="Call" customStyles="bg-[#4397A4]" />
-            <Button
-              styles="bg-[#C6DBFF]"
-              className="ml-[1.44rem]"
-              label="Email"
-            />
-          </div>
+          <Call />
         </section>
       </main>
     </PageLayout>

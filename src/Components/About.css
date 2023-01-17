@@ -72,10 +72,5 @@
 .shadow{
     box-shadow:  10px 5px 5px 1px #4397A4;
 }
-.call{
-    @apply flex mt-[3.75rem] border-y-2 border-[#678C92] py-[4.75rem]
-}
-.us{
-    @apply w-[42.51rem] mr-[4.67rem] text-[#486A6F] font-bold text-4xl 
-}
+
 

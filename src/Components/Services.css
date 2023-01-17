@@ -15,5 +15,45 @@
     @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] mb-[2.5rem]
 }
 .services-two{
-    @apply pt-[11.25rem] pb-[20.12rem] pl-[7.5rem] pr-[7.37rem]
+    @apply flex flex-col items-center pt-[11.25rem] pb-[20.12rem] px-[7.5rem] bg-[#F5F5F5] 
+}
+.map-services{
+    @apply flex gap-x-[6rem] mb-[20.06rem] 
+}
+.map-image{
+    @apply mt-[2rem] w-[32rem]
+}
+.desc-wrapper{
+    @apply flex flex-col w-[32rem]
+}
+.heading{
+    @apply text-[#5BCCDE] font-medium mb-[1.25rem] 
+}
+.service-title{
+    @apply text-[#486A6F] font-bold text-4xl mb-[1.25rem]
+}
+.service-description{
+    @apply text-[#678C92] font-medium mb-[7.5rem]
+}
+.flex-boxes{
+    @apply flex items-center gap-[1.25rem]
+}
+.box{
+    @apply bg-[#C6DBFF] w-[14.56rem] h-[8.2rem] py-[1.875rem] px-[1.37rem];
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+}
+.box-name{
+    @apply  text-[#486A6F] font-bold
+}
+.stat{
+    @apply text-[#678C92] font-medium
+}
+.see-arrow{
+   @apply flex items-center gap-[1rem] mr-[0.9rem] justify-end mt-[2.5rem]
+}
+.see{
+    @apply flex text-center text-[#4397A4]
+}
+.arrow{
+    @apply flex items-end
 }
