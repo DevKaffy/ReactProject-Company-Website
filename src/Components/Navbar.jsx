@@ -2,7 +2,7 @@ import React, {Fragment, useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import "./Navbar.css"
 
-const navItem = "about,services,project,contacts".split(",");
+const navItem = "about,services,projects,contacts".split(",");
 
 const Navbar = ({className}) => {
 

@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import PageLayout from "./PageLayout";
+import { addresses } from "../data";
 import Button from "./Button";
 
 const Home = () => {
@@ -31,23 +32,7 @@ const Home = () => {
     "/card5.png",
     "/card6.png",
   ];
-  const addresses = [
-    {
-      contact: "/contact1.png",
-      name: "Tel",
-      point: "708-790-0000",
-    },
-    {
-      contact: "/contact2.png",
-      name: "Email",
-      point: "sales@buildit.site",
-    },
-    {
-      contact: "/contact3.png",
-      name: "Office",
-      point: "60 Manor Station St.Fairport, NY 14450",
-    },
-  ];
+ 
   return (
     <div>
       <PageLayout>

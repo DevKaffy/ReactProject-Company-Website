@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-const PageLayout = ({ children, className, style}) => {
+const PageLayout = ({ children, className}) => {
   return (
     <div className="flex flex-col w-screen h-screen overflow-hidden ">
       <Navbar className={`${className}`} />

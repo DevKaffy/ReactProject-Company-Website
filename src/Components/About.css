@@ -50,7 +50,7 @@
     @apply flex mx-auto items-center justify-center gap-x-[2.5rem] border-y-2 border-[#678C92] w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
 }
 .third-section{
-    @apply bg-[#E1EBFA] h-[108.62rem] flex flex-col pt-[5.18rem] px-[14.31rem] pb-[8.18rem] items-center
+    @apply bg-[#F4F7FF] h-[108.62rem] flex flex-col pt-[5.18rem] px-[14.31rem] pb-[8.18rem] items-center
 }
 .passports{
     @apply grid grid-cols-3 gap-[2.5rem];
@@ -72,5 +72,5 @@
 .shadow{
     box-shadow:  10px 5px 5px 1px #4397A4;
 }
-
+/* background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%); */
 

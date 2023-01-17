@@ -1,0 +1,19 @@
+.project-one{
+@apply h-screen pb-[14.12rem];
+background: url('/BgP.png'), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+}
+.project-two{
+    @apply pt-[4.87rem] px-[14.18rem] pb-[14.75rem] bg-[#F4F7FF]
+}
+.projects-map{
+    @apply grid grid-cols-3  gap-[2.5rem]
+}
+.projects-title{
+    @apply text-[#486A6F] font-bold mb-[3.93rem] flex items-center justify-center text-4xl
+}
+/* .pro-map{
+    @apply flex flex-col gap-x-[2.5rem] gap-y-[2.5rem]
+} */
+/* .pro-map img{
+    @apply mb-[1.31rem]
+} */
