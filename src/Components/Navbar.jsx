@@ -22,7 +22,7 @@ const Navbar = ({className}) => {
           </Link>
         ))}
       </div>
-      <a href="">
+      <a href="#form">
         <button className="project">Need a project?</button>
       </a>
     </nav>

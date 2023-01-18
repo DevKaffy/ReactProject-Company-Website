@@ -4,7 +4,7 @@ import './Call.css'
 
 const Call = () => {
   return (
-    <div className="call">
+    <div id='form' className="call">
       <div className="us">Call Us</div>
       <Button label="Call" classStyle="w-[13rem]" />
       <Button

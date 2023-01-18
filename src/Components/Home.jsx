@@ -39,7 +39,7 @@ const Home = () => {
         <main className="home">
           <section className="home-sections">
             <div className="figure">
-              <img src="/Figure.svg" alt="figure"/>
+              <img src="/Figure.svg" alt="figure" />
             </div>
             <div className="leftSection">
               <h1 className="development">Development Company</h1>
@@ -54,25 +54,13 @@ const Home = () => {
             </div>
             <div className="right-section">
               <div className="top-house">
-                <img
-                  className="white-house"
-                  src="/White house.png"
-                  alt=""
-                />
-                <img src="/Blue house.png" alt=""/>
+                <img className="white-house" src="/White house.png" alt="" />
+                <img src="/Blue house.png" alt="" />
                 <img src="/Pink house.png" alt="" />
               </div>
               <div className="down-house">
-                <img
-                  className="black-house"
-                  src="/Black house.png"
-                  alt=""
-                />
-                <img
-                  className="white-pool"
-                  src="/White pool.png"
-                  alt=""
-                />
+                <img className="black-house" src="/Black house.png" alt="" />
+                <img className="white-pool" src="/White pool.png" alt="" />
               </div>
             </div>
           </section>
@@ -163,7 +151,7 @@ const Home = () => {
               ))}
             </div>
           </section>
-          <Form />
+          <Form  />
         </main>
       </PageLayout>
     </div>

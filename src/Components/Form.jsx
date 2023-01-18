@@ -20,7 +20,7 @@ const addresses = [
 ];
 const Form = () => {
   return (
-    <section className="section-six">
+    <section id='form'className="section-six">
       <div className="six-left">
         <div className="contact">Contact</div>
         <div className="touch">Get In Touch</div>
