@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Igreen: "#678C92",
+        Igreen: "#4397A4",
       },
     },
   },

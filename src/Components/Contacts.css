@@ -1,9 +1,12 @@
-/* .home-contacts{
-    @apply pb-[10.5rem] relative
-} */
-/* .figure{
-    @apply relative
-} */
-/* .section-six{
-    @apply absolute z-30
-} */
+.home-contacts{
+    @apply bg-[#F4F7FF] pb-[10.5rem] flex pt-[3.75rem] overflow-hidden relative;
+    z-index: 2;
+}
+.fig img{
+    @apply absolute w-[40.31rem] object-cover -top-32 shadow-sm left-[48.81rem];
+    z-index:1; 
+}
+
+form{
+    @apply ml-[24.42rem]
+}

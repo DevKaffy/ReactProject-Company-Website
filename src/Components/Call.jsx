@@ -6,10 +6,10 @@ const Call = () => {
   return (
     <div className="call">
       <div className="us">Call Us</div>
-      <Button label="Call" customStyles="bg-[#4397A4]" classStyle="w-[13rem]" />
+      <Button label="Call" classStyle="w-[13rem]" />
       <Button
         customStyles="bg-[#C6DBFF]"
-        className="ml-[1.44rem]"
+        className="ml-[1.44rem] text-[#486A6F]"
         label="Email"
         classStyle="w-[13rem]"
       />

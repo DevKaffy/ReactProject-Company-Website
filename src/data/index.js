@@ -1,20 +1,3 @@
-export const addresses = [
-  {
-    contact: "/contact1.png",
-    name: "Tel",
-    point: "708-790-0000",
-  },
-  {
-    contact: "/contact2.png",
-    name: "Email",
-    point: "sales@buildit.site",
-  },
-  {
-    contact: "/contact3.png",
-    name: "Office",
-    point: "60 Manor Station St.Fairport, NY 14450",
-  },
-];
 
 export const servicesData = [
   {

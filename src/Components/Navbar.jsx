@@ -7,23 +7,25 @@ const navItem = "about,services,projects,contacts".split(",");
 const Navbar = ({className}) => {
 
   return (
-      <nav className={`nav-items ${className}`}>
-       <Link to ="/">
+    <nav className={`nav-items ${className}`}>
+      <Link to="/">
         <div className="left">
           <div className="circle"></div>
-          <p className='build'>Buildit</p>
+          <p className="build">Buildit</p>
         </div>
-       </Link> 
-        <div className="items">
-          {navItem.map((Item, ItemIndex) => (
-            <Link to={`/${Item}`} key={ItemIndex}>
-              {" "}
-              {Item}
-            </Link>
-          ))}
-        </div>
+      </Link>
+      <div className="items">
+        {navItem.map((Item, ItemIndex) => (
+          <Link to={`/${Item}`} key={ItemIndex}>
+            {" "}
+            {Item}
+          </Link>
+        ))}
+      </div>
+      <a href="">
         <button className="project">Need a project?</button>
-      </nav>
+      </a>
+    </nav>
   );
 }
 

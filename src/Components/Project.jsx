@@ -38,12 +38,16 @@ const Project = () => {
               </div>
             ))}
           </div>
-          <Button
-            label="More"
-            classStyle="w-[13rem]"
-            superClass="mt-[3.75rem] bg-[#4397A4]"
-          />
-          <Call />
+          <div className="button-wrapper">
+            <Button
+              label="More"
+              classStyle="w-[13rem]"
+              superClass="mt-[3.75rem] bg-[#4397A4]"
+            />
+          </div>
+          <div className='call-wrapper'>
+            <Call />
+          </div>
         </section>
       </main>
     </PageLayout>
