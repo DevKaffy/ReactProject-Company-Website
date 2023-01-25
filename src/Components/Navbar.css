@@ -1,6 +1,6 @@
 .nav-items{
-    @apply flex items-center justify-between mx-auto text-[#678C92] pl-[8rem] pr-[9.71rem] w-full pt-[4rem] pb-[2rem];
-    background:#E1EBFA;
+    @apply fixed bg-transparent z-50 flex items-center justify-between mx-auto text-[#678C92] px-8 md:pl-[8rem] md:pr-[9.71rem] w-full pt-[1.5rem] pb-[2rem];
+    /* background:#E1EBFA; */
 }
 .left{
     @apply flex items-center justify-center gap-x-[0.93rem]
@@ -9,10 +9,19 @@
     @apply w-[3.12rem] h-[3.12rem] rounded-full  bg-[#4397A4]
 }
 .build{
-    @apply font-bold
+    @apply font-bold;
+}
+.tab-desktop{
+@apply hidden md:flex gap-[3.12rem];
+}
+.menu{
+    @apply block md:hidden;
+}
+.tab-mobile{
+    @apply gap-[2rem] md:hidden;
 }
 .items {
-@apply flex items-center justify-center mx-auto text-[#678C92] gap-x-[3.12rem] capitalize
+@apply hidden md:flex items-center justify-center mx-auto text-[#678C92] capitalize gap-x-[3.12rem] ;
 }
 .project {
     @apply bg-[#4397A4] right-36 text-[#F4F7FF] w-[10.56rem] h-[2.62rem] rounded px-[1.56rem] font-bold text-base; 

@@ -2,9 +2,9 @@
     @apply bg-[#F4F7FF] flex  overflow-hidden relative;
     z-index: 2;
 }
-/* pb-[10.5rem] pt-[3.75rem] */
+
 .fig img{
-    @apply absolute w-[40.31rem] object-cover -top-32 shadow-sm left-[48.81rem];
+@apply absolute h-[65rem] w-[39.5rem]  object-cover right-0 shadow-sm ;
     z-index:1; 
 }
 

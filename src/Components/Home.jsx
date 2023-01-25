@@ -37,9 +37,9 @@ const Home = () => {
     <div>
       <PageLayout>
         <main className="home">
-          <section className="home-sections">
+          <section className="home-sections ">
             <div className="figure">
-              <img src="/Figure.svg" alt="figure" />
+              <img src="/Figure.png" alt="figure" />
             </div>
             <div className="leftSection">
               <h1 className="development">Development Company</h1>
@@ -55,8 +55,8 @@ const Home = () => {
             <div className="right-section">
               <div className="top-house">
                 <img className="white-house" src="/White house.png" alt="" />
-                <img src="/Blue house.png" alt="" />
-                <img src="/Pink house.png" alt="" />
+                <img className='blue-house' src="/Blue house.png" alt="" />
+                <img className='pink-house' src="/Pink house.png" alt="" />
               </div>
               <div className="down-house">
                 <img className="black-house" src="/Black house.png" alt="" />

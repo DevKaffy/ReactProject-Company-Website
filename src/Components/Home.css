@@ -3,19 +3,19 @@
 }
 
 .figure img{
-    @apply absolute w-[40.31rem] h-[60.12rem] object-cover -top-32 shadow-sm left-[48.81rem];
+@apply hidden lg:block absolute h-[45rem] w-[30rem] top-0 object-contain right-0 shadow-sm ;
     z-index:1; 
 }
 .home-sections{
-    @apply flex pt-[3.75rem]  relative overflow-hidden h-[45rem] ;
+    @apply flex pt-[3.75rem]  relative overflow-hidden h-screen pb-[5rem];
     z-index: 2;
     background:#E1EBFA
 }
 .leftSection{
-    @apply pl-[8rem] mt-[11rem];
+    @apply pl-[8rem] mt-[8rem];
 }
 .development{
-    @apply w-[500px] h-[9rem] text-6xl text-[#486A6F] font-bold;
+    @apply w-[500px] h-[9rem] text-3xl md:text-4xl lg:text-6xl text-[#486A6F] font-bold;
 }
 .developer{
     @apply w-[480px] h-[72px] text-2xl text-[#678C92] font-normal mt-[1.25rem];
@@ -30,42 +30,43 @@
     @apply py-[20px] px-[49px] text-[#486A6F] bg-[#C6DBFF] font-bold rounded;
 }
 .right-section{
-    @apply flex flex-col ;
+    @apply flex flex-col mt-[3rem];
     z-index: 20;
 
 }
 .top-house{
     @apply flex items-end gap-x-[2.1rem];
 }
+
 .white-house{
-    @apply w-[10rem] h-[9.99rem];
+    @apply w-[8rem] h-[8rem];
 }
 .blue-house{
-    @apply w-[15.59rem] h-[15.52rem];
+    @apply w-[12rem] h-[12rem];
 }
 .pink-house{
-    @apply w-[8rem] h-[8rem];
+    @apply w-[9rem] h-[9rem];
 }
 .down-house{
     @apply flex items-start gap-x-[2rem] mt-[2.57rem];
 }
 .black-house{
-    @apply w-[21.4rem] h-[21.4rem];
+    @apply w-[15rem] h-[20rem] pb-[7rem];
 }
 .white-pool{
-    @apply w-[13.09rem] h-[13.03rem];
+    @apply w-[10rem] h-[10rem];
 }
 .section-two{
-    @apply bg-[#F4F7FF]
+    @apply bg-[#F4F7FF];
 }
 .wrapper{
-    @apply flex flex-col  pt-[12.49rem] pl-[12.5rem] pr-[12.41rem]
+    @apply flex flex-col  pt-[12rem] pl-[12.5rem] pr-[12.41rem] pb-[12rem]
 } 
 .title{
     @apply text-4xl font-bold text-[#486A6F] flex justify-center
 }
 .second-wrapper{
-    @apply justify-between flex  pt-[8.25rem]  gap-[0.62rem] text-[#486A6F] 
+    @apply justify-between flex flex-col lg:flex-row pt-[8rem]  gap-[0.62rem] text-[#486A6F] 
 }
 .second-wrapper .img-box{
     @apply w-[4.375rem] h-[4.375rem] bg-Igreen flex items-center justify-center rounded mr-[19.79rem]
@@ -80,7 +81,7 @@
     @apply mb-[0.62rem] text-[#486A6F] font-bold text-2xl
 }
 .description{
-    @apply font-medium text-[#678C92] w-[16.75rem] mb-[18.49rem]
+    @apply font-medium text-[#678C92] w-[16.75rem] 
 }
 .section-three{
     @apply bg-[#E1EBFA] h-[56.18rem] pt-[4.2rem]

@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         Igreen: "#4397A4",
       },
+      backgroundImage:{
+        contactImg: "url('Figure.svg')"
+      }
     },
   },
   plugins: [],

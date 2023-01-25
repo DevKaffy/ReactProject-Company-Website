@@ -21,13 +21,13 @@
     @apply w-[30rem] text-[#678C92]  
 }
 .second-section{
-    @apply bg-[#F4F7FF] h-[54.31rem] pt-[8.12rem] flex items-center flex-col
+    @apply bg-[#F4F7FF] pt-[8.12rem] pb-[8.12rem] flex items-center flex-col
 }
 .statistic{
     @apply text-[#5BCCDE] font-medium
 }
 .dev{
-    @apply text-[#486A6F] font-bold mb-[8.87rem] text-4xl
+    @apply text-[#486A6F] font-bold mb-[5rem] text-4xl
 }
 .square{
     @apply w-[64rem] h-[9.81rem] rounded py-[2.68rem] px-[5.56rem] mb-[3.75rem];
@@ -47,10 +47,10 @@
     @apply mt-2 text-[#678C92]
 }
 .logoItems{
-    @apply flex mx-auto items-center justify-center gap-x-[2.5rem] border-y-2 border-[#678C92] w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
+    @apply flex items-center justify-center gap-x-[2.5rem] border-y-2 border-[#678C92] w-[75rem] mx-[7.5rem] pt-[2.39rem]
 }
 .third-section{
-    @apply bg-[#F4F7FF] h-[108.62rem] flex flex-col pt-[5.18rem] px-[14.31rem] pb-[8.18rem] items-center
+    @apply bg-[#F4F7FF] h-[108.62rem] flex flex-col pt-[3rem] px-[14.31rem] pb-[3rem] items-center
 }
 .passports{
     @apply grid grid-cols-3 gap-[2.5rem];

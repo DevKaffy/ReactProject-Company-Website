@@ -15,10 +15,10 @@
     @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] mb-[2.5rem]
 }
 .services-two{
-    @apply flex flex-col items-center pt-[11.25rem] pb-[20.12rem] px-[7.5rem] bg-[#F5F5F5] 
+    @apply flex flex-col items-center pt-[11.25rem] pb-[11.25rem] px-[7.5rem] bg-[#F5F5F5] 
 }
 .map-services{
-    @apply flex gap-x-[6rem] mb-[20.06rem] 
+    @apply flex gap-x-[6rem] mb-[10.06rem] 
 }
 .map-image{
     @apply mt-[2rem] w-[32rem]
@@ -33,7 +33,7 @@
     @apply text-[#486A6F] font-bold text-4xl mb-[1.25rem]
 }
 .service-description{
-    @apply text-[#678C92] font-medium mb-[7.5rem]
+    @apply text-[#678C92] font-medium mb-[7rem]
 }
 .flex-boxes{
     @apply flex items-center gap-[1.25rem]
