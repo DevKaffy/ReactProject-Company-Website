@@ -1,6 +1,6 @@
 import React from 'react'
-import PageLayout from './PageLayout'
-import Form from './Form'
+import PageLayout from '../PageLayout'
+import Form from '../Form'
 import './Contacts.css'
 
 const Contacts = () => {

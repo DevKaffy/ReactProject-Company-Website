@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import PageLayout from './PageLayout'
-import {servicesData} from '../data/index'
-import Call from './Call'
+import PageLayout from '../PageLayout'
+import { servicesData } from '../../data'
+import Call from '../Call'
 import './Services.css'
 
 

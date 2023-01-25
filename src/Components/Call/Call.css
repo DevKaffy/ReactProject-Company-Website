@@ -1,0 +1,6 @@
+.call{
+    @apply lg:flex items-center justify-center mt-[3.75rem] border-y-2 border-[#678C92] py-[4.75rem] w-[70rem]
+}
+.us{
+    @apply w-[42.51rem] mr-[4.67rem] text-[#486A6F] font-bold text-4xl 
+}

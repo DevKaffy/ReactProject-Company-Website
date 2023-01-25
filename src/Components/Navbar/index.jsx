@@ -29,7 +29,7 @@ const Navbar = ({className}) => {
       <p className="block md:hidden" onClick={()=>setShowNav(!showNav)}>
         <img src="/menu.svg" alt="" />
       </p>
-        <div className={`bg-red-400 absolute ${showNav?"right-0":"-right-24"}  h-60 w-24 top-20 transition-all duration-150`}>
+        <div className={`absolute capitalize ${showNav?"right-0":"-right-24"}  h-60 w-24 top-20 transition-all duration-150`}>
           {navItem.map((Item, ItemIndex) => (
             <Link to={`/${Item}`} key={ItemIndex}>
               {" "}

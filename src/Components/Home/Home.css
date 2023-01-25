@@ -7,18 +7,18 @@
     z-index:1; 
 }
 .home-sections{
-    @apply flex pt-[3.75rem]  relative overflow-hidden h-screen pb-[5rem];
+    @apply lg:flex pt-[3.75rem]  relative overflow-hidden lg:h-screen pb-[5rem] px-[8rem];
     z-index: 2;
     background:#E1EBFA
 }
 .leftSection{
-    @apply pl-[8rem] mt-[8rem];
+    @apply mt-[8rem];
 }
 .development{
     @apply w-[500px] h-[9rem] text-3xl md:text-4xl lg:text-6xl text-[#486A6F] font-bold;
 }
 .developer{
-    @apply w-[480px] h-[72px] text-2xl text-[#678C92] font-normal mt-[1.25rem];
+    @apply w-[480px] h-[72px] lg:text-2xl text-[#678C92] font-normal mt-[1.25rem];
 }
 .button{
     @apply flex items-center gap-x-[20px];
@@ -84,19 +84,19 @@
     @apply font-medium text-[#678C92] w-[16.75rem] 
 }
 .section-three{
-    @apply bg-[#E1EBFA] h-[56.18rem] pt-[4.2rem]
+    @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem]
 }
 .logos{
-    @apply flex mx-auto items-center justify-center gap-x-[2.5rem] border-y-2 border-[#678C92] w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
+    @apply block md:flex items-center justify-center  md:gap-x-[2.5rem] border-y-2 border-[#678C92] lg:w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
 }
 .about-section{
-    @apply flex items-center mt-[5rem] mx-[11.25rem] 
+    @apply lg:flex items-center mt-[5rem] mx-[11.25rem] 
 }
 .about-section img{
     @apply mr-[3.75rem] w-[31.25rem] h-[23.43rem]
 }
 .about-right{
-    @apply flex flex-col
+    @apply lg:flex flex-col mt-[2rem]
 }
 .about-us{
     @apply flex items-start justify-start mb-[1.25rem] text-[#5BCCDE] 
@@ -108,13 +108,13 @@
     @apply text-[#678C92] font-medium text-[1rem] mb-[2.5rem]
 }
 .section-four{
-    @apply h-[56.23rem] bg-[#F4F7FF] pt-[10.73rem] 
+    @apply lg:h-[56.23rem] bg-[#F4F7FF] pt-[10.73rem] pb-[5rem]
 }
 .wrapper-four{
-    @apply flex items-center justify-between mx-[11.25rem] gap-[3.56rem]
+    @apply lg:flex items-center justify-between mx-[11.25rem] gap-[3.56rem]
 }
 .left-four{
-    @apply flex flex-col w-[30rem]
+    @apply lg:flex flex-col w-[30rem] pb-[5rem]
 }
 .right-four{
     @apply grid grid-cols-2 gap-[1.9rem]
@@ -141,7 +141,7 @@
     @apply w-[13.43rem] h-[8.43rem] mt-[1.87rem]
 }
 .section-five{
-    @apply bg-[#E1EBFA] h-[56.23rem] flex flex-col items-center pt-[8.58rem] font-medium 
+    @apply bg-[#E1EBFA] lg:h-[56.23rem] flex flex-col items-center pt-[8.58rem] font-medium pb-[5rem]
 }
 .five-one{
     @apply text-[#5BCCDE] mb-[0.62rem] 
@@ -150,5 +150,5 @@
     @apply text-[#486A6F] font-medium text-4xl mb-[2.5rem]
 }
 .cards{
-    @apply grid grid-cols-3 gap-[1.25rem]
+    @apply grid lg:grid-cols-3 gap-[1.25rem]
 }

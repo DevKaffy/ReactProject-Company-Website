@@ -1,5 +1,5 @@
 .home-contacts{
-    @apply bg-[#F4F7FF] flex  overflow-hidden relative;
+    @apply bg-[#F4F7FF] lg:flex  overflow-hidden relative;
     z-index: 2;
 }
 

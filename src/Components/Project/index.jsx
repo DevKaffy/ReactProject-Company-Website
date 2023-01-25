@@ -1,9 +1,9 @@
 import React from 'react'
-import PageLayout from './PageLayout'
+import PageLayout from '../PageLayout'
 import './Project.css'
-import { projects } from '../data'
-import Call from './Call'
-import Button from './Button'
+import { projects } from '../../data'
+import Call from '../Call'
+import Button from '../Button'
 
 const Project = () => {
   return (

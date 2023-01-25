@@ -1,8 +1,8 @@
 import React from 'react'
-import PageLayout from './PageLayout';
+import PageLayout from '../PageLayout';
 import './About.css';
-import Call from './Call';
-import Button from './Button';
+import Call from '../Call';
+import Button from '../Button';
 
 const images = [
   {
