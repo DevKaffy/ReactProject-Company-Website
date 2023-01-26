@@ -20,7 +20,7 @@ const addresses = [
 ];
 const Form = () => {
   return (
-    <section id='form'className="section-six">
+    <section id="form" className="section-six">
       <div className="six-left">
         <div className="contact">Contact</div>
         <div className="touch">Get In Touch</div>
@@ -56,7 +56,9 @@ const Form = () => {
           <label htmlFor="message">Message</label>
           <textarea name="text" id="message" cols="30" rows="5"></textarea>
         </div>
-        <button>Send message</button>
+        <div className='send'>
+          <button>Send message</button>
+        </div>
       </form>
     </section>
   );

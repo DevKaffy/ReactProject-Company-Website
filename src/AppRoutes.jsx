@@ -5,7 +5,7 @@ import React from 'react'
 import Home from './Components/Home';
 import About from './Components/About';
 import Contacts from './Components/Contacts';
-import Project from './Components/Project';
+import Project from './Components/Project/Project';
 import Services from './Components/Services';
 
 const AppRoutes = () => {

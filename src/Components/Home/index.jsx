@@ -153,7 +153,7 @@ const Home = () => {
               ))}
             </div>
           </section>
-          <Form />
+          <Form className='send'/>
         </main>
       </PageLayout>
     </div>
