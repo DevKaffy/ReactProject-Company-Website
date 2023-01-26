@@ -72,6 +72,9 @@
     @apply w-[4.375rem] h-[4.375rem] bg-Igreen flex items-center justify-center rounded mr-[19.79rem]
 }
 .little-wrapper{
+    @apply flex lg:flex-col items-center justify-center
+}
+.inside-wrapper{
     @apply flex flex-col
 }
 .img-box{

@@ -9,5 +9,5 @@
 }
 
 form{
-    @apply ml-[24.42rem]
+    @apply lg:ml-[24.42rem]
 }
