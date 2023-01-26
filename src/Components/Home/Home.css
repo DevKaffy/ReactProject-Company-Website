@@ -21,13 +21,13 @@
     @apply lg:w-[480px] h-[72px] lg:text-2xl text-[#678C92] font-normal mt-[1.25rem] ;
 }
 .button{
-    @apply flex items-center lg:gap-x-[20px];
+    @apply flex items-center lg:gap-x-[20px] gap-x-[1rem];
 }
 .services{
-    @apply py-[20px] px-[26px] bg-[#4397A4] text-[#F4F7FF] font-bold rounded; 
+    @apply py-[10px] px-[10px] lg:py-[20px] lg:px-[26px] bg-[#4397A4] text-[#F4F7FF] font-bold rounded; 
 }
 .about{
-    @apply py-[20px] px-[49px] text-[#486A6F] bg-[#C6DBFF] font-bold rounded;
+    @apply py-[10px] px-[10px] lg:py-[20px] lg:px-[49px] text-[#486A6F] bg-[#C6DBFF] font-bold rounded;
 }
 .right-section{
     @apply flex flex-col mt-[3rem];
@@ -35,7 +35,7 @@
 
 }
 .top-house{
-    @apply flex items-end gap-x-[2.1rem];
+    @apply lg:flex block items-end gap-x-[2.1rem];
 }
 
 .white-house{
@@ -48,7 +48,7 @@
     @apply lg:w-[9rem] lg:h-[9rem];
 }
 .down-house{
-    @apply flex items-start gap-x-[2rem] mt-[2.57rem];
+    @apply lg:flex block items-start gap-x-[2rem] mt-[2.57rem];
 }
 .black-house{
     @apply lg:w-[15rem] lg:h-[20rem] pb-[7rem];
