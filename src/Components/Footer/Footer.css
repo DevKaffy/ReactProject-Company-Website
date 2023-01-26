@@ -14,7 +14,7 @@
     @apply mr-[10.81rem]
 }
 .media{
-    @apply flex gap-[1.25rem] items-center justify-center mt-[2rem]
+    @apply flex gap-[1.25rem] lg:items-center lg:justify-center mt-[2rem]
 }
 .station{
     @apply w-[14rem] mb-[3.12rem]

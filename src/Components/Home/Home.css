@@ -60,7 +60,7 @@
     @apply bg-[#F4F7FF];
 }
 .wrapper{
-    @apply flex flex-col  pt-[12rem] pl-[12.5rem] pr-[12.41rem] pb-[12rem]
+    @apply flex flex-col  pt-[12rem] lg:pl-[12.5rem] px-[8rem] lg:pr-[12.41rem] pb-[12rem] 
 } 
 .title{
     @apply text-4xl font-bold text-[#486A6F] flex justify-center
@@ -69,10 +69,10 @@
     @apply justify-between flex flex-col lg:flex-row pt-[8rem]  gap-[0.62rem] text-[#486A6F] 
 }
 .second-wrapper .img-box{
-    @apply lg:w-[4.375rem] lg:h-[4.375rem] bg-Igreen lg:flex flex-col items-center justify-center rounded lg:mr-[19.79rem] mr-[5rem]
+    @apply w-[4.375rem] h-[4.375rem] bg-Igreen lg:flex flex-col items-center justify-center rounded lg:mr-[19.79rem] mr-[5rem]
 }
 .little-wrapper{
-    @apply flex lg:flex-col 
+    @apply flex flex-col 
 }
 .inside-wrapper{
     @apply flex flex-col
@@ -90,7 +90,7 @@
     @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem]
 }
 .logos{
-    @apply block md:flex items-center justify-center  md:gap-x-[2.5rem] border-y-2 border-[#678C92] lg:w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
+    @apply grid grid-cols-2 gap-5 md:flex items-center justify-center  md:gap-x-[2.5rem] border-y-2 border-[#678C92] lg:w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
 }
 .about-section{
     @apply lg:flex items-center mt-[5rem] mx-[11.25rem] 
