@@ -21,13 +21,13 @@
     @apply lg:w-[480px] h-[72px] lg:text-2xl text-[#678C92] font-normal mt-[1.25rem] ;
 }
 .button{
-    @apply flex items-center lg:gap-x-[20px];
+    @apply flex items-center lg:gap-x-[20px] gap-[1rem];
 }
 .services{
-    @apply py-[20px] px-[26px] bg-[#4397A4] text-[#F4F7FF] font-bold rounded; 
+    @apply lg:py-[20px] lg:px-[26px] bg-[#4397A4] text-[#F4F7FF] font-bold rounded; 
 }
 .about{
-    @apply py-[20px] px-[49px] text-[#486A6F] bg-[#C6DBFF] font-bold rounded;
+    @apply lg:py-[20px] lg:px-[49px] text-[#486A6F] bg-[#C6DBFF] font-bold rounded;
 }
 .right-section{
     @apply flex flex-col mt-[3rem];
@@ -35,7 +35,7 @@
 
 }
 .top-house{
-    @apply flex items-end gap-x-[2.1rem];
+    @apply lg:flex flex-col items-end gap-x-[2.1rem];
 }
 
 .white-house{
@@ -48,7 +48,7 @@
     @apply lg:w-[9rem] lg:h-[9rem];
 }
 .down-house{
-    @apply flex items-start gap-x-[2rem] mt-[2.57rem];
+    @apply lg:flex flex-col items-start gap-x-[2rem] mt-[2.57rem];
 }
 .black-house{
     @apply lg:w-[15rem] lg:h-[20rem] pb-[7rem];
@@ -69,10 +69,10 @@
     @apply justify-between flex flex-col lg:flex-row pt-[8rem]  gap-[0.62rem] text-[#486A6F] 
 }
 .second-wrapper .img-box{
-    @apply w-[4.375rem] h-[4.375rem] bg-Igreen lg:flex flex-col items-center justify-center rounded lg:mr-[19.79rem] mr-[5rem]
+    @apply w-[4.375rem] h-[4.375rem] bg-Igreen lg:flex flex-col items-center justify-center rounded lg:mr-[19.79rem] mr-[5rem] md:mb-[2rem] lg:mb-none
 }
 .little-wrapper{
-    @apply flex flex-col md:mb-[2rem] lg:mb-none
+    @apply flex flex-col 
 }
 .inside-wrapper{
     @apply flex flex-col
@@ -129,7 +129,7 @@
     @apply text-[#486A6F] font-bold text-4xl mb-[1.25rem]
 }
 .four-lorem{
-    @apply text-[#678C92] lg:font-medium mb-[2.5rem]
+    @apply text-[#678C92] lg:font-medium text-[1rem] mb-[2.5rem]
 }
 .first-image{
     @apply mb-[1.81rem] mr-[1.87rem] lg:w-[14.5rem] lg:h-[12.81rem]
