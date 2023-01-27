@@ -21,7 +21,7 @@
     @apply lg:w-[480px] h-[72px] lg:text-2xl text-[#678C92] font-normal mt-[1.25rem] ;
 }
 .button{
-    @apply flex items-center lg:gap-x-[20px] gap-x-[1rem];
+    @apply flex items-center gap-x-[20px];
 }
 .services{
     @apply py-[10px] px-[10px] lg:py-[20px] lg:px-[26px] bg-[#4397A4] text-[#F4F7FF] font-bold rounded; 

@@ -35,7 +35,7 @@
     box-shadow: 0px 5px 10px 5px #E1EBFA;
 }
 .wrap{
-    @apply lg:flex grid gap-[2re] 
+    @apply lg:flex grid gap-[2rem] 
 }
 .flex-images{
     @apply flex gap-[2.5rem] 
