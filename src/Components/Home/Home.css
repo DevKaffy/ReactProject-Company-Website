@@ -89,9 +89,6 @@
 .section-three{
     @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem]
 }
-.logos{
-    @apply grid grid-cols-2 gap-5 md:flex items-center justify-center  md:gap-x-[2.5rem] border-y-2 border-[#678C92] lg:w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
-}
 .about-section{
     @apply lg:flex items-center mt-[5rem] mx-[11.25rem] 
 }

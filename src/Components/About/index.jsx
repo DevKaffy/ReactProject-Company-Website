@@ -2,6 +2,7 @@ import React from 'react'
 import PageLayout from '../PageLayout';
 import './About.css';
 import Call from '../Call';
+import Logos from '../Logos';
 import Button from '../Button';
 
 const images = [
@@ -21,8 +22,6 @@ const images = [
     number: "Number",
   },
 ];
-
-const items = ["/Vector.png", "/Vector2.png", "/Vector3.png", "/Vector4.png"];
 
 const passports = [
   {
@@ -113,13 +112,7 @@ const About = () => {
               ))}
             </div>
           </div>
-          <div className="logoItems">
-            {items.map((item, index) => (
-              <div key={`items-${index}`}>
-                <img src={item} alt="" />
-              </div>
-            ))}
-          </div>
+          <Logos/>
         </section>
         <section className="third-section">
           <p className="statistic">Our team</p>

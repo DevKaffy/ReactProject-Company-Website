@@ -1,6 +1,6 @@
 .call{
-    @apply lg:flex items-center justify-center mt-[3.75rem] border-y-2 border-[#678C92] py-[4.75rem] w-[70rem]
+    @apply lg:flex grid grid-rows-3 gap-5 lg:items-center lg:justify-center mt-[3.75rem] lg:border-y-2 border-[#678C92] py-[4.75rem] lg:w-[70rem] mx-[7.5rem]
 }
 .us{
-    @apply w-[42.51rem] mr-[4.67rem] text-[#486A6F] font-bold text-4xl 
+    @apply lg:w-[42.51rem] mr-[4.67rem] text-[#486A6F] font-bold lg:text-4xl 
 }

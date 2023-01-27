@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import PageLayout from "../PageLayout";
 import Form from "../Form";
+import Logos from "../Logos";
 import Button from "../Button";
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     },
   ];
-  const logos = ["/Vector.png", "/Vector2.png", "/Vector3.png", "/Vector4.png"];
+  
   const cards = [
     "/Card1.png",
     "/card2.png",
@@ -83,13 +84,7 @@ const Home = () => {
             </div>
           </section>
           <section className="section-three">
-            <div className="logos">
-              {logos.map((logo, index) => (
-                <div key={`logos-${index}`}>
-                  <img src={logo} alt="" />
-                </div>
-              ))}
-            </div>
+            <Logos/>
             <div className="about-section">
               <img src="/Фото.png" alt="" />
               <div className="about-right">

@@ -1,0 +1,3 @@
+.logos{
+    @apply grid grid-cols-2 gap-5 md:flex items-center justify-center  md:gap-x-[2.5rem] border-y-2 border-[#678C92] lg:w-[75rem] mx-[7.5rem] pt-[2.39rem] pb-[2.45rem]
+}

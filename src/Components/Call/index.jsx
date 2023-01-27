@@ -6,12 +6,12 @@ const Call = () => {
   return (
     <div id='form' className="call">
       <div className="us">Call Us</div>
-      <Button label="Call" classStyle="w-[13rem]" />
+      <Button label="Call" classStyle="lg:w-[13rem]" />
       <Button
         customStyles="bg-[#C6DBFF]"
-        className="ml-[1.44rem] text-[#486A6F]"
+        className="lg:ml-[1.44rem] text-[#486A6F]"
         label="Email"
-        classStyle="w-[13rem]"
+        classStyle="lg:w-[13rem]"
       />
     </div>
   );
