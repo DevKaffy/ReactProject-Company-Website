@@ -15,7 +15,7 @@
     @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] 
 }
 .services-two{
-    @apply flex flex-col pt-[11.25rem] pb-[11.25rem] lg:px-[7.5rem] bg-[#F5F5F5] px-[5rem]
+    @apply flex flex-col justify-center pt-[11.25rem] pb-[11.25rem] lg:px-[7.5rem] bg-[#F5F5F5] px-[5rem]
 }
 .map-services{
     @apply lg:flex grid gap-5 lg:gap-x-[6rem] mb-[10.06rem] 
