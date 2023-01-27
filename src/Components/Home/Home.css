@@ -7,7 +7,7 @@
     z-index:1; 
 }
 .home-sections{
-    @apply lg:flex pt-[3.75rem]  relative overflow-hidden lg:h-screen pb-[5rem] lg:px-[8rem] px-[2rem];
+    @apply lg:flex pt-[3.75rem]  lg:relative overflow-hidden lg:h-screen pb-[5rem] lg:px-[8rem] px-[5rem];
     z-index: 2;
     background:#E1EBFA
 }
