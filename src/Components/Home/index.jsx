@@ -126,11 +126,11 @@ const Home = () => {
                 </div>
               </div>
               <div className="right-four">
-                <div className="pt-20">
+                <div className="pt-20 four-top">
                   <img className="first-image" src="/Photo1.png" alt="" />
                   <img className="second-image" src="/Photo3.png" alt="" />
                 </div>
-                <div>
+                <div className="four-down">
                   <img className="third-image" src="/Photo2.png" alt="" />
                   <img className="fourth-image" src="/Photo4.png" alt="" />
                 </div>

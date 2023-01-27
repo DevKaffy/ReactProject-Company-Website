@@ -3,7 +3,7 @@
 background: url('/BgP.png'), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .project-two{
-    @apply pt-[4.87rem] px-[14.18rem] pb-[14.75rem] bg-[#F4F7FF]
+    @apply px-[5rem] lg:px-[14.18rem] pt-[7.2rem] pb-[14.75rem] bg-[#F4F7FF]
 }
 .projects-map{
     @apply grid gap-5 lg:grid-cols-3  lg:gap-[2.5rem]
@@ -15,7 +15,7 @@ background: url('/BgP.png'), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25
     @apply flex items-center justify-center
 }
 .call-wrapper{
-    @apply flex items-center justify-center
+    @apply lg:flex items-center justify-center
 }
 /* .pro-map{
     @apply flex flex-col gap-x-[2.5rem] gap-y-[2.5rem]

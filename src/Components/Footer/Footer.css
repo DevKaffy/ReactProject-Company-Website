@@ -1,5 +1,5 @@
 .footer{
-    @apply bg-[#486A6F] lg:h-[27.12rem] lg:flex pt-[6.10rem] px-[7.5rem] pb-[7.93rem] 
+    @apply bg-[#486A6F] lg:h-[27.12rem] lg:flex pt-[6.10rem] lg:px-[7.5rem] px-[5rem] pb-[7.93rem] text-[#F4F7FF]
 }
 .first-footer{
     @apply mr-[3.72rem] mb-[0.87rem]

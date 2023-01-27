@@ -7,7 +7,7 @@
     z-index:1; 
 }
 .home-sections{
-    @apply lg:flex pt-[3.75rem]  relative overflow-hidden lg:h-screen pb-[5rem] px-[8rem];
+    @apply lg:flex pt-[3.75rem]  relative overflow-hidden lg:h-screen pb-[5rem] lg:px-[8rem] px-[2rem];
     z-index: 2;
     background:#E1EBFA
 }
@@ -18,7 +18,7 @@
     @apply w-[500px] h-[9rem] text-3xl md:text-4xl lg:text-6xl text-[#486A6F] font-bold;
 }
 .developer{
-    @apply lg:w-[480px] h-[72px] lg:text-2xl text-[#678C92] font-normal mt-[1.25rem] ;
+    @apply lg:w-[480px] h-[72px] lg:text-2xl text-[#678C92] font-normal mt-[1.25rem];
 }
 .button{
     @apply flex items-center gap-x-[20px];
@@ -60,7 +60,7 @@
     @apply bg-[#F4F7FF];
 }
 .wrapper{
-    @apply flex flex-col  pt-[12rem] lg:pl-[12.5rem] px-[8rem] lg:pr-[12.41rem] pb-[12rem] 
+    @apply flex flex-col  pt-[12rem] lg:pl-[12.5rem] lg:px-[8rem] px-[5rem] lg:pr-[12.41rem] pb-[12rem] 
 } 
 .title{
     @apply text-4xl font-bold text-[#486A6F] flex justify-center
@@ -87,10 +87,10 @@
     @apply font-medium text-[#678C92] w-[16.75rem] 
 }
 .section-three{
-    @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem]
+    @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem] px-[5rem]
 }
 .about-section{
-    @apply lg:flex items-center mt-[5rem] mx-[11.25rem] 
+    @apply lg:flex items-center mt-[5rem] lg:mx-[11.25rem] 
 }
 .about-section img{
     @apply lg:mr-[3.75rem] lg:w-[31.25rem] lg:h-[23.43rem]
@@ -108,10 +108,10 @@
     @apply text-[#678C92] font-medium text-[1rem] mb-[2.5rem]
 }
 .section-four{
-    @apply lg:h-[56.23rem] bg-[#F4F7FF] pt-[10.73rem] pb-[5rem]
+    @apply lg:h-[56.23rem] bg-[#F4F7FF] pt-[10.73rem] pb-[5rem] px-[5rem]
 }
 .wrapper-four{
-    @apply lg:flex items-center justify-between mx-[11.25rem] gap-[3.56rem]
+    @apply lg:flex items-center justify-between lg:mx-[11.25rem] gap-[3.56rem]
 }
 .left-four{
     @apply lg:flex flex-col w-[30rem] lg:pb-[5rem]
@@ -120,28 +120,34 @@
     @apply text-[#5BCCDE] font-medium mb-[1.25rem] 
 }
 .four-featured{
-    @apply text-[#486A6F] font-bold text-4xl mb-[1.25rem]
+    @apply text-[#486A6F] font-bold lg:text-4xl mb-[1.25rem]
 }
 .four-lorem{
-    @apply text-[#678C92] font-medium mb-[2.5rem] w-[28rem] 
+    @apply text-[#678C92] font-medium mb-[2.5rem] w-[28rem]
 }
 .right-four{
-    @apply lg:grid grid-cols-2 lg:gap-[1.9rem] block 
+    @apply grid lg:grid-cols-2 lg:gap-[1.9rem] gap-5
+}
+.four-top{
+    @apply grid gap-5
 }
 .first-image{
-    @apply lg:mb-[1.81rem] lg:mr-[1.87rem] lg:w-[14.5rem] lg:h-[12.81rem] mb-[1rem]
+    @apply lg:mb-[1.81rem] lg:mr-[1.87rem] lg:w-[14.5rem] lg:h-[12.81rem]
 } 
 .second-image{
-    @apply lg:w-[15.18rem] lg:h-[20.68rem] items-start lg:pl-10 mb-[1rem]
+    @apply lg:w-[15.18rem] lg:h-[20.68rem] items-start lg:pl-10 
+}
+.four-down{
+    @apply grid gap-5
 }
 .third-image{
-    @apply lg:w-[12.12rem] lg:h-[20.68rem] lg:mr-[1.87rem]  mb-[1rem]
+    @apply lg:w-[12.12rem] lg:h-[20.68rem] lg:mr-[1.87rem] 
 }
 .fourth-image{
-    @apply lg:w-[13.43rem] lg:h-[8.43rem] lg:mt-[1.87rem] mb-[1rem]
+    @apply lg:w-[13.43rem] lg:h-[8.43rem] lg:mt-[1.87rem]
 }
 .section-five{
-    @apply bg-[#E1EBFA] lg:h-[56.23rem] flex flex-col items-center pt-[8.58rem] font-medium pb-[5rem]
+    @apply bg-[#E1EBFA] lg:h-[56.23rem] flex flex-col items-center pt-[8.58rem] font-medium pb-[5rem] px-[5rem]
 }
 .five-one{
     @apply text-[#5BCCDE] mb-[0.62rem] 

@@ -1,5 +1,5 @@
 .section-six{
-    @apply lg:h-[56.23rem] bg-[#F4F7FF] pt-[13.71rem] pl-[8.03rem] lg:flex justify-between  pr-[8.03rem] pb-[10.77rem];
+    @apply lg:h-[56.23rem] bg-[#F4F7FF] pt-[13.71rem] pl-[8.03rem] lg:flex justify-between  lg:pr-[8.03rem] pb-[10.77rem] px-[5rem];
 }
 .contact{
     @apply text-[#5BCCDE] font-medium mb-[0.81rem] 

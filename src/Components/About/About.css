@@ -1,5 +1,5 @@
 .first-wrapper{
-    @apply lg:flex lg:flex-row block px-[11.9rem] pt-[7.2rem] pb-[2rem];
+    @apply lg:flex lg:flex-row block lg:px-[11.9rem] pt-[7.2rem] px-[5rem] pb-[2rem];
      background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .image-wrapper{
@@ -21,7 +21,7 @@
     @apply lg:w-[30rem] text-[#678C92]  
 }
 .second-section{
-    @apply bg-[#F4F7FF] pt-[8.12rem] pb-[8.12rem] flex items-center flex-col
+    @apply bg-[#F4F7FF] pt-[8.12rem] pb-[8.12rem] flex items-center flex-col px-[5rem]
 }
 .statistic{
     @apply text-[#5BCCDE] font-medium
@@ -47,7 +47,7 @@
     @apply mt-2 text-[#678C92]
 }
 .third-section{
-    @apply bg-[#F4F7FF] lg:h-[108.62rem] lg:flex flex-col pt-[3rem] px-[14.31rem] pb-[3rem] items-center
+    @apply bg-[#F4F7FF] lg:h-[108.62rem] lg:flex flex-col pt-[3rem] lg:px-[14.31rem] pb-[3rem] items-center px-[5rem]
 }
 .passports{
     @apply lg:grid lg:grid-cols-3 lg:gap-[2.5rem] grid gap-[2rem];

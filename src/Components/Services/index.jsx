@@ -52,7 +52,7 @@ const Services = () => {
               </div>
             </div>
           ))}
-          <Call />
+        <Call />
         </section>
       </main>
     </PageLayout>
