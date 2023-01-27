@@ -51,7 +51,7 @@
     @apply lg:flex block items-start lg:gap-x-[2rem] lg:mt-[2.57rem];
 }
 .black-house{
-    @apply lg:w-[15rem] lg:h-[20rem] lg:mb-[7rem] mb-[1rem];
+    @apply lg:w-[15rem] lg:h-[14rem] lg:mb-[7rem];
 }
 .white-pool{
     @apply lg:w-[10rem] lg:h-[10rem];
@@ -87,10 +87,10 @@
     @apply font-medium text-[#678C92] w-[16.75rem] 
 }
 .section-three{
-    @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem] px-[5rem]
+    @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem] 
 }
 .about-section{
-    @apply lg:flex items-center mt-[5rem] lg:mx-[11.25rem] 
+    @apply lg:flex items-center mt-[5rem] lg:mx-[11.25rem] mx-[5rem]
 }
 .about-section img{
     @apply lg:mr-[3.75rem] lg:w-[31.25rem] lg:h-[23.43rem]

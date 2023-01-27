@@ -4,7 +4,7 @@
 }
 
 .fig img{
-@apply hidden absolute h-[65rem] w-[39.5rem]  object-cover right-0 shadow-sm ;
+@apply hidden lg:block absolute h-[65rem] w-[39.5rem]  object-cover right-0 shadow-sm ;
     z-index:1; 
 }
 

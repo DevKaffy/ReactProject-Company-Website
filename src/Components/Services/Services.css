@@ -3,13 +3,13 @@
      background: url("/Bg.png"), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .wrapper-services{
-    @apply flex flex-col items-center justify-center lg:pt-[13rem] pt-[7.2rem] lg:mx-[29.43rem] px-[5rem] lg:w-[30rem] pb-[2.5rem]
+    @apply flex flex-col items-center justify-center lg:pt-[13rem] pt-[7.2rem] lg:mx-[24.43rem] px-[5rem] w-[39rem] pb-[2.5rem]
 }
 .services-head{
      @apply flex items-center mb-[1.25rem] text-[#5BCCDE]
 }
 .services-title{
-    @apply flex items-center text-center text-[#486A6F] font-bold text-4xl mb-[1.25rem]
+    @apply flex items-center text-center text-[#486A6F] font-bold lg:text-4xl mb-[1.25rem]
 }
 .services-description{
     @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] 
