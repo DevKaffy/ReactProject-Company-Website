@@ -6,7 +6,7 @@ background: url('/BgP.png'), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25
     @apply pt-[4.87rem] px-[14.18rem] pb-[14.75rem] bg-[#F4F7FF]
 }
 .projects-map{
-    @apply grid grid-cols-3  gap-[2.5rem]
+    @apply grid gap-5 lg:grid-cols-3  lg:gap-[2.5rem]
 }
 .projects-title{
     @apply text-[#486A6F] font-bold mb-[3.93rem] flex items-center justify-center text-4xl
