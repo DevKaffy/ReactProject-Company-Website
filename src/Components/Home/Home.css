@@ -63,7 +63,7 @@
     @apply flex flex-col  pt-[12rem] lg:pl-[12.5rem] lg:px-[8rem] px-[5rem] lg:pr-[12.41rem] pb-[12rem] 
 } 
 .title{
-    @apply text-4xl font-bold text-[#486A6F] flex justify-center
+    @apply lg:text-4xl font-bold text-[#486A6F] flex justify-center
 }
 .second-wrapper{
     @apply justify-between flex flex-col lg:flex-row pt-[8rem]  gap-[0.62rem] text-[#486A6F] gap-y-8 
@@ -81,7 +81,7 @@
     @apply mb-[1.25rem]
 }
 .innovation-title{
-    @apply mb-[0.62rem] text-[#486A6F] font-bold text-2xl
+    @apply mb-[0.62rem] text-[#486A6F] font-bold lg:text-2xl
 }
 .description{
     @apply font-medium text-[#678C92] w-[16.75rem] 

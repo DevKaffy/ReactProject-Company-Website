@@ -24,6 +24,6 @@
 @apply hidden md:flex items-center justify-center mx-auto text-[#678C92] capitalize gap-x-[3.12rem] ;
 }
 .project {
-    @apply bg-[#4397A4] right-36 text-[#F4F7FF] w-[10.56rem] h-[2.62rem] rounded px-[1.56rem] font-bold text-base; 
+    @apply bg-[#4397A4] right-36 text-[#F4F7FF] lg:w-[10.56rem] lg:h-[2.62rem] rounded px-[1.56rem] py-[5px] font-bold text-base; 
     z-index:2; 
 }

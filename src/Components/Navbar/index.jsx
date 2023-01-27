@@ -37,19 +37,6 @@ const Navbar = ({className}) => {
             </Link>
           ))}
         </div>
-      {/* <div className="tab-mobile">
-        <div className="items">
-          {navItem.map((Item, ItemIndex) => (
-            <Link to={`/${Item}`} key={ItemIndex}>
-              {" "}
-              {Item}
-            </Link>
-          ))}
-        </div>
-        <a href="#form">
-          <button className="project">Need a project?</button>
-        </a>
-      </div> */}
     </nav>
   );
 }
