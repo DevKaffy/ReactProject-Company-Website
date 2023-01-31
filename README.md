@@ -29,7 +29,7 @@ An implementation of a figma file using Reactjs and TailwindCss
 
 ## Contact
 If you want to contact me you can reach me at
-- https://github.com/Intelligence247 or
+- https://github.com/DevKaffy or
 - kafilatadewumi61@gmail.com
 
 ## Addtional Info
