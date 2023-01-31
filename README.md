@@ -13,7 +13,6 @@ An implementation of a figma file using Reactjs and TailwindCss
 
 ## Tech/framework used
 - Reactjs
-- Tailwind css
 - TailwindCss
 
 ## Preview here
