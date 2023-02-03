@@ -7,7 +7,7 @@ import './Services.css'
 
 const Services = () => {
   return (
-    <PageLayout className="bg-transparent fixed">
+    <PageLayout>
       <main>
         <section className="servicesBg">
           <div className="wrapper-services">

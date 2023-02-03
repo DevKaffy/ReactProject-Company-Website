@@ -4,10 +4,20 @@ import "./Navbar.css"
 
 const navItem = "about,services,projects,contacts".split(",");
 
-const Navbar = ({className}) => {
- const [showNav, setShowNav]= useState(false)
+const Navbar = () => {
+  const [showNav, setShowNav] = useState(false)
+  const [color, setColor]= useState(false)
+  const changeColor = () => {
+    if (window.scrollY >= 50) {
+      setColor(true)
+    } else {
+      setColor(false)
+    }
+  }
+  window.addEventListener('scroll', changeColor)
+
   return (
-    <nav className={`nav-items ${className}`}>
+    <nav className={`nav-items ${color} ? nav-header : nav-items`}>
       <Link to="/">
         <div className="left">
           <div className="circle"></div>

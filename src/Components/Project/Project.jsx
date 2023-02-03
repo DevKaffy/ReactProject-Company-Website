@@ -7,7 +7,7 @@ import Button from '../Button'
 
 const Project = () => {
   return (
-    <PageLayout className="bg-transparent fixed">
+    <PageLayout>
       <main>
         <section className="project-one">
           <div className="wrapper-services">
