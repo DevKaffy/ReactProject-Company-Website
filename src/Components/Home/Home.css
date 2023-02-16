@@ -3,14 +3,14 @@
 }
 
 .figure img {
-  @apply hidden lg:block absolute h-full object-cover right-0 w-[29rem] shadow-sm;
+  @apply hidden lg:block absolute h-full object-cover right-0 w-[31rem] shadow-sm;
   z-index: 1;
 }
 .hero-section{
   @apply bg-[#e1ebfa] relative mx-auto;
 }
 .home-sections {
-  @apply lg:flex lg:relative overflow-hidden h-[95vh] items-center justify-between;
+  @apply lg:flex lg:relative overflow-hidden h-[100vh] items-center justify-between;
   /* z-index: 2; */
 }
 /* .leftSection {
