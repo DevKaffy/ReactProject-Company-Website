@@ -38,7 +38,7 @@ const Home = () => {
     <div>
       <PageLayout>
         <main className="home">
-          <section className="bg-[#e1ebfa] relative">
+          <section className=" hero-section">
             <div className="figure">
               <img src="/public/Figure.png" alt="figure" />
             </div>
@@ -68,7 +68,7 @@ const Home = () => {
             </div>
           </section>
           <section className="section-two">
-            <div className="wrapper">
+            <div className="wrapper center">
               <p className="title">Innovative Execution</p>
               <div className="second-wrapper">
                 {innovations.map((innovation, index) => (
@@ -86,10 +86,10 @@ const Home = () => {
             </div>
           </section>
           <section className="section-three">
-            <Logos/>
-            <div className="about-section">
+            <Logos />
+            <div className="about-section center">
               <img src="/Фото.png" alt="" />
-              <div className="about-right">
+              <div className="about-right center">
                 <p className="about-us">About us</p>
                 <div className="about-title">
                   Owner and investor with a reputation
@@ -110,7 +110,7 @@ const Home = () => {
             </div>
           </section>
           <section className="section-four">
-            <div className="wrapper-four">
+            <div className="wrapper-four center">
               <div className="left-four">
                 <div className="four-available">Available Properties</div>
                 <div className="four-featured">Featured Listing</div>
@@ -140,17 +140,22 @@ const Home = () => {
             </div>
           </section>
           <section className="section-five">
-            <div className="five-one">Socials</div>
-            <div className="five-two">On Instagram</div>
-            <div className="cards">
-              {cards.map((card, index) => (
-                <div key={`cards-${index}`}>
-                  <img src={card} alt="" />
-                </div>
-              ))}
+            <div className="center">
+              <div className="flex flex-col items-center">
+                <div className="five-one">Socials</div>
+                <div className="five-two">On Instagram</div>
+              </div>
+
+              <div className="cards">
+                {cards.map((card, index) => (
+                  <div key={`cards-${index}`}>
+                    <img src={card} alt="" />
+                  </div>
+                ))}
+              </div>
             </div>
           </section>
-          <Form className='send'/>
+          <Form className="send" />
         </main>
       </PageLayout>
     </div>
