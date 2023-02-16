@@ -2,7 +2,7 @@
     background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .first-wrapper{
-    @apply lg:flex lg:flex-row block pt-[7.2rem] pb-[2rem];
+    @apply lg:flex lg:flex-row block pt-[8rem] pb-[2rem];
 }
 .image-wrapper{
     @apply lg:relative

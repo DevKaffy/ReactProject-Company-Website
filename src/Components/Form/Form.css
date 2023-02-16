@@ -1,5 +1,5 @@
 .section-six{
-    @apply bg-[#F4F7FF] pt-[12.71rem];
+    @apply bg-[#F4F7FF] pt-[8rem] pb-[5rem];
 }
 .section-form{
     @apply lg:flex justify-between
