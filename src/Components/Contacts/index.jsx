@@ -8,7 +8,7 @@ const Contacts = () => {
     <PageLayout>
         <section className="home-contacts">
           <div className="fig">
-            <img src="/Figure.svg" alt="figure"/>
+            <img src="/Figure.png" alt="figure"/>
           </div>
         <Form />
         </section>

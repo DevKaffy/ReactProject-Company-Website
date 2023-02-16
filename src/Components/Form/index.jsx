@@ -21,45 +21,47 @@ const addresses = [
 const Form = () => {
   return (
     <section id="form" className="section-six">
-      <div className="six-left">
-        <div className="contact">Contact</div>
-        <div className="touch">Get In Touch</div>
-        <div className="address">
-          {addresses.map((address, index) => (
-            <div className="six-flex" key={`addresses-${index}`}>
-              <img src={address.contact} alt="" />
-              <div>
-                <div className="name">{address.name}</div>
-                <div className="point">{address.point}</div>
+      <div className="section-form center">
+        <div className="six-left">
+          <div className="contact">Contact</div>
+          <div className="touch">Get In Touch</div>
+          <div className="address">
+            {addresses.map((address, index) => (
+              <div className="six-flex" key={`addresses-${index}`}>
+                <img src={address.contact} alt="" />
+                <div>
+                  <div className="name">{address.name}</div>
+                  <div className="point">{address.point}</div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
 
-      <form action="text">
-        <div className="name-email">
-          <div className="form-input">
-            <label htmlFor="name">Name</label>
-            <input type="text" id="fname" name="fname" />
+        <form action="text">
+          <div className="name-email">
+            <div className="form-input">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="fname" name="fname" />
+            </div>
+            <div className="form-input">
+              <label htmlFor="email">Email</label>
+              <input type="text" id="fname" name="fname" />
+            </div>
           </div>
           <div className="form-input">
-            <label htmlFor="email">Email</label>
-            <input type="text" id="fname" name="fname" />
+            <label htmlFor="subject">Subject</label>
+            <input className="subject" type="text" id="fname" name="fname" />
           </div>
-        </div>
-        <div className="form-input">
-          <label htmlFor="subject">Subject</label>
-          <input className="subject" type="text" id="fname" name="fname" />
-        </div>
-        <div className="form-input">
-          <label htmlFor="message">Message</label>
-          <textarea name="text" id="message" cols="30" rows="5"></textarea>
-        </div>
-        <div className='send'>
-          <button>Send message</button>
-        </div>
-      </form>
+          <div className="form-input">
+            <label htmlFor="message">Message</label>
+            <textarea name="text" id="message" cols="30" rows="5"></textarea>
+          </div>
+          <div className="send">
+            <button>Send message</button>
+          </div>
+        </form>
+      </div>
     </section>
   );
 }

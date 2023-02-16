@@ -1,21 +1,24 @@
 .servicesBg{
-    @apply h-screen pb-[14.12rem] mx-auto;  
+    @apply h-screen pb-[13rem] lg:pt-[13rem];  
      background: url("/Bg.png"), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .wrapper-services{
-    @apply flex flex-col items-center justify-center lg:pt-[13rem] pt-[7.2rem] lg:mx-[24.43rem] px-[5rem] w-[39rem] pb-[2.5rem] mx-auto;
+    @apply flex flex-col items-center justify-center;
 }
 .services-head{
-     @apply flex items-center mb-[1.25rem] text-[#5BCCDE];
+     @apply flex items-center mb-[1.25rem] text-[rgb(91,204,222)];
 }
 .services-title{
-    @apply flex items-center text-center text-[#486A6F] font-bold lg:text-4xl mb-[1.25rem];
+    @apply flex items-center text-center text-[#486A6F] font-bold lg:text-4xl mb-[1.25rem] w-[30rem];
 }
 .services-description{
-    @apply flex items-center text-center text-[#678C92] font-medium text-[1rem];
+    @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] w-[30rem];
 }
 .services-two{
-    @apply flex flex-col justify-center pt-[11.25rem] pb-[11.25rem] lg:px-[7.5rem] bg-[#F5F5F5] px-[5rem] mx-auto;
+    @apply bg-[#F5F5F5]
+}
+.services-wrapper{
+    @apply flex flex-col justify-center pt-[11.25rem] pb-[11.25rem];
 }
 .map-services{
     @apply lg:flex grid gap-5 lg:gap-x-[6rem] mb-[10.06rem];

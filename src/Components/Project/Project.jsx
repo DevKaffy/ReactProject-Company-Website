@@ -10,7 +10,7 @@ const Project = () => {
     <PageLayout>
       <main>
         <section className="project-one">
-          <div className="wrapper-services">
+          <div className="wrapper-services center">
             <div className="services-head">Projects</div>
             <div className="services-title">
               Owner and Investor with a reputation
@@ -23,30 +23,32 @@ const Project = () => {
             </div>
           </div>
         </section>
-        <section className="project-two">
-          <div className="projects-title">Our Projects</div>
-          <div className="projects-map">
-            {projects.map((project, index) => (
-              <div key={`${index}`}>
-                <div className="pro-map shadow">
-                  <img src={project.img} alt="" />
-                  <div className="surname-wrapper">
-                    <div className="surname">{project.name}</div>
-                    <div className="worker">{project.info}</div>
+        <section className='sectiontwo-wrapper'>
+          <div className="project-two center">
+            <div className="projects-title">Our Projects</div>
+            <div className="projects-map">
+              {projects.map((project, index) => (
+                <div key={`${index}`}>
+                  <div className="pro-map shadow">
+                    <img src={project.img} alt="" />
+                    <div className="surname-wrapper">
+                      <div className="surname">{project.name}</div>
+                      <div className="worker">{project.info}</div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-          <div className="button-wrapper">
-            <Button
-              label="More"
-              classStyle="w-[13rem]"
-              superClass="mt-[3.75rem] bg-[#4397A4]"
-            />
-          </div>
-          <div className='call-wrapper'>
-            <Call />
+              ))}
+            </div>
+            <div className="button-wrapper">
+              <Button
+                label="More"
+                classStyle="w-[13rem]"
+                superClass="mt-[3.75rem] bg-[#4397A4]"
+              />
+            </div>
+            <div className="call-wrapper">
+              <Call />
+            </div>
           </div>
         </section>
       </main>

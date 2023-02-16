@@ -1,9 +1,12 @@
 .project-one{
-@apply h-screen pb-[14.12rem] mx-auto;
+@apply h-screen pb-[13rem] lg:pt-[13rem];
 background: url('/BgP.png'), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
+.sectiontwo-wrapper{
+    @apply bg-[#F4F7FF];
+}
 .project-two{
-    @apply px-[5rem] lg:px-[14.18rem] pt-[7.2rem] pb-[14.75rem] bg-[#F4F7FF]
+    @apply pt-[7.2rem] pb-[14.75rem]; 
 }
 .projects-map{
     @apply grid gap-5 lg:grid-cols-3  lg:gap-[2.5rem]

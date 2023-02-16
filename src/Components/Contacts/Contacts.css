@@ -1,10 +1,10 @@
 .home-contacts{
-    @apply bg-[#F4F7FF] lg:flex  overflow-hidden lg:relative;
+    @apply bg-[#F4F7FF] lg:flex overflow-hidden lg:relative;
     z-index: 2;
 }
 
 .fig img{
-@apply hidden lg:block absolute h-[65rem] w-[39.5rem]  object-cover right-0 shadow-sm ;
+@apply hidden lg:block absolute h-[full] w-[full]  object-cover -top-2 right-0 shadow-sm ;
     z-index:1; 
 }
 

@@ -40,7 +40,7 @@ const Home = () => {
         <main className="home">
           <section className=" hero-section">
             <div className="figure">
-              <img src="/public/Figure.png" alt="figure" />
+              <img src="/Figure.png" alt="figure" />
             </div>
             <div className="home-sections center">
               <div className="leftSection">
