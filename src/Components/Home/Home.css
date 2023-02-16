@@ -89,7 +89,7 @@
     @apply font-medium text-[#678C92] w-[16.75rem]; 
 }
 .section-three{
-    @apply bg-[#E1EBFA] lg:h-[56.18rem] pt-[4.2rem] pb-[4.2rem];
+    @apply bg-[#E1EBFA] pt-[5rem] pb-[5rem];
 }
 .about-section{
     @apply lg:flex items-center pt-[5rem];
@@ -110,7 +110,7 @@
     @apply text-[#678C92] font-medium text-[1rem] mb-[2.5rem]
 }
 .section-four{
-    @apply lg:h-[56.23rem] bg-[#F4F7FF] pt-[10.73rem] pb-[5rem];
+    @apply bg-[#F4F7FF] pt-[5rem] pb-[5rem];
 }
 .wrapper-four{
     @apply lg:flex items-center justify-between gap-[3.56rem];
@@ -149,7 +149,7 @@
     @apply lg:w-[13.43rem] lg:h-[8.43rem] lg:mt-[1.87rem];
 }
 .section-five{
-    @apply bg-[#E1EBFA] lg:h-[56.23rem] flex flex-col items-center pt-[8.58rem] font-medium pb-[5rem];
+    @apply bg-[#E1EBFA] flex flex-col items-center pt-[5rem] font-medium pb-[5rem];
 }
 .five-one{
     @apply text-[#5BCCDE] mb-[0.62rem] 
