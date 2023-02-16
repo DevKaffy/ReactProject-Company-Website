@@ -38,30 +38,32 @@ const Home = () => {
     <div>
       <PageLayout>
         <main className="home">
-          <section className="home-sections ">
+          <section className="bg-[#e1ebfa] relative">
             <div className="figure">
               <img src="/Figure.png" alt="figure" />
             </div>
-            <div className="leftSection">
-              <h1 className="development">Development Company</h1>
-              <p className="developer">
-                Forward thinking real estate developer, owner and investor with
-                a reputation
-              </p>
-              <div className="button">
-                <button className="services">Services</button>
-                <button className="about">About the Company</button>
+            <div className="home-sections center">
+              <div className="leftSection">
+                <h1 className="development">Development Company</h1>
+                <p className="developer">
+                  Forward thinking real estate developer, owner and investor
+                  with a reputation
+                </p>
+                <div className="button">
+                  <button className="services">Services</button>
+                  <button className="about">About the Company</button>
+                </div>
               </div>
-            </div>
-            <div className="right-section">
-              <div className="top-house">
-                <img className="white-house" src="/White house.png" alt="" />
-                <img className="blue-house" src="/Blue house.png" alt="" />
-                <img className="pink-house" src="/Pink house.png" alt="" />
-              </div>
-              <div className="down-house">
-                <img className="black-house" src="/Black house.png" alt="" />
-                <img className="white-pool" src="/White pool.png" alt="" />
+              <div className="right-section">
+                <div className="top-house">
+                  <img className="white-house" src="/White house.png" alt="" />
+                  <img className="blue-house" src="/Blue house.png" alt="" />
+                  <img className="pink-house" src="/Pink house.png" alt="" />
+                </div>
+                <div className="down-house">
+                  <img className="black-house" src="/Black house.png" alt="" />
+                  <img className="white-pool" src="/White pool.png" alt="" />
+                </div>
               </div>
             </div>
           </section>
