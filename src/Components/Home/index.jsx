@@ -38,7 +38,7 @@ const Home = () => {
     <div>
       <PageLayout>
         <main className="home">
-          <section className=" hero-section">
+          <section className="hero-section">
             <div className="figure">
               <img src="/Figure.png" alt="figure" />
             </div>

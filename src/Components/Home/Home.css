@@ -10,7 +10,7 @@
   @apply bg-[#e1ebfa] relative mx-auto;
 }
 .home-sections {
-  @apply lg:flex lg:relative overflow-hidden h-[100vh] items-center justify-between;
+  @apply lg:flex lg:relative overflow-hidden h-[100vh] items-center justify-between pt-16;
   /* z-index: 2; */
 }
 /* .leftSection {
