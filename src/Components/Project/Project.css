@@ -1,5 +1,5 @@
 .project-one{
-@apply h-screen pb-[13rem] lg:pt-[13rem];
+@apply h-screen pb-[13rem] pt-24 lg:pt-[13rem];
 background: url('/BgP.png'), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .sectiontwo-wrapper{

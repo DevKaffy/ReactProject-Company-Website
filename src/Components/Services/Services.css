@@ -1,5 +1,5 @@
 .servicesBg{
-    @apply h-screen pb-[13rem] lg:pt-[13rem];  
+    @apply h-screen pb-[13rem] pt-24 lg:pt-[13rem];  
      background: url("/Bg.png"), linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
 .wrapper-services{
@@ -9,10 +9,10 @@
      @apply flex items-center mb-[1.25rem] text-[rgb(91,204,222)];
 }
 .services-title{
-    @apply flex items-center text-center text-[#486A6F] font-bold lg:text-4xl mb-[1.25rem] w-[30rem];
+    @apply flex items-center text-center text-[#486A6F] font-bold lg:text-4xl mb-[1.25rem] lg:w-[30rem];
 }
 .services-description{
-    @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] w-[30rem];
+    @apply flex items-center text-center text-[#678C92] font-medium text-[1rem] lg:w-[30rem];
 }
 .services-two{
     @apply bg-[#F5F5F5]
